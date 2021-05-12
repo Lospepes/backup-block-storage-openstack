@@ -1,3 +1,8 @@
+#### ---------------------------------------------- VERSIONS ----------------------------------------------  #####
+# Version 1.0 : Initial version
+
+#### ---------------------------------------------- HOW TO ----------------------------------------------  #####
+
 # Use it in crontab
 #!/bin/bash
 # Crontab
@@ -6,7 +11,7 @@
 # Use it in command line
 # ./yourpath/backup-volume.sh BlockStorageBackupName /yourpath/folderToSave
 
-# Settings
+#### ---------------------------------------------- SETTINGS ----------------------------------------------  #####
 	lvm_test_mode=0
 	extra_size_for_backup_volume=2
 	snapshots_retention_days=16
